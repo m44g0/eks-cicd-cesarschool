@@ -10,7 +10,7 @@ metadata:
   name: mgma-pqla-cicd
 spec:
   selector:
-    app: cicd-demo
+    app: mgma-pqla-cicd
   ports:
    -  protocol: TCP
       port: 8082
