@@ -11,15 +11,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: cicd-demo
+      app: mgma-pqla-cicd
   template:
     metadata:
       labels:
-        app: cicd-demo
+        app: mgma-pqla-cicd
     spec:
       containers:
         - image: 211711023937.dkr.ecr.us-east-2.amazonaws.com/dp003:latest
           imagePullPolicy: Always
-          name: cicd-demo
+          name: mgma-pqla-cicd
           ports:
             - containerPort: 3000
